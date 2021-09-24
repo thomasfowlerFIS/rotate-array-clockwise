@@ -10,15 +10,15 @@ const rotateArray = (arr, k) => {
 
 if (require.main === module) {
   // add your own tests in here
-  // console.log("Given: [1, 2, 3, 4], 1");
-  // console.log("Expecting: [4, 1, 2, 3]");
-  // console.log("=>", rotateArray([1, 2, 3, 4], 1));
+  console.log("Given: [1, 2, 3, 4], 1");
+  console.log("Expecting: [4, 1, 2, 3]");
+  console.log("=>", rotateArray([1, 2, 3, 4], 1));
 
-  // console.log("");
+  console.log("");
 
-  // console.log("Given: [1, 2, 3], 2");
-  // console.log("Expecting: [2, 3, 1]");
-  // console.log("=>", rotateArray([1, 2, 3], 2));
+  console.log("Given: [1, 2, 3], 2");
+  console.log("Expecting: [2, 3, 1]");
+  console.log("=>", rotateArray([1, 2, 3], 2));
 
   console.log("");
 
@@ -26,11 +26,11 @@ if (require.main === module) {
   console.log("Expecting: [2, 3, 1]");
   console.log("=>", rotateArray([1, 2, 3], 5));
 
-  // console.log("");
+  console.log("");
 
-  // console.log("Expecting: [1, 2, 3], 3");
-  // console.log("Expecting: [1, 2, 3]");
-  // console.log("=>", rotateArray([1, 2, 3], 3));
+  console.log("Expecting: [1, 2, 3], 3");
+  console.log("Expecting: [1, 2, 3]");
+  console.log("=>", rotateArray([1, 2, 3], 3));
 }
 
 module.exports = rotateArray;
